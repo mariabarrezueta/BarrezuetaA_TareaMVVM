@@ -6,12 +6,6 @@ public partial class RebeBA_AboutPage : ContentPage
 	{
 		InitializeComponent();
 	}
-    private async void LearnMore_Clicked(object sender, EventArgs e)
-    {
-        if (BindingContext is Models.RebeBA_About about)
-        {
-            await Launcher.Default.OpenAsync(about.MoreInfoUrl);
-        }
-    }
+    
         
 }
